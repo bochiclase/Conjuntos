@@ -15,7 +15,7 @@ public class Run {
 		if (entrada.contains("*")) {
 			Interseccion inter = new Interseccion(entrada);
 			System.out.println(inter);
-			
+			 
 		}
 		
 		if (entrada.contains("-")) {

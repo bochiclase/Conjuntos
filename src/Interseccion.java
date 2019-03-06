@@ -18,7 +18,7 @@ public class Interseccion {
 					}
 				}
 			
-		
+	
 		}
 
 	}
@@ -35,5 +35,5 @@ public class Interseccion {
 	public void setInter(List<Integer> inter) {
 		this.inter = inter;
 	}
-
+//
 }

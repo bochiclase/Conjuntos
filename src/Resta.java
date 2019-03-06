@@ -7,20 +7,19 @@ public class Resta {
 	
 	public Resta (String entrada) {
 		int numero;
-		String formateado = entrada.replace((char) ('['&']'&'-'&','), ' ');
+		String formateado = entrada.replace((char) ('['&']'&'-'), ' ');
 		String[] s =  formateado.split("-");
-		String cad1 = s[0];
-	    String cad2 = s[1];
-	    for (int i =0; i<cad1.length(); i++) {
-			for (int j=0; j<cad2.length(); j++) {
-				if(cad1.charAt(i) != cad2.charAt(j)) {
-					numero = (int)(cad2.charAt(j));
-					inter.add(numero);
-				}
+		int cad1 = Integer.parseInt(s[0]);
+	    int cad2 = Integer.parseInt(s[1]);
+	    for (int i=0; i<s[0].length(); i++) {
+	    	if(cad1 )
+	    	
+	    }
+				
 			}
-		}
+		
 	
-	}
+	
 
 	@Override
 	public String toString() {
@@ -28,4 +27,4 @@ public class Resta {
 	}
 }
 //Introduce la cadena de numeros
-	// [1,2,3]+[5,3,8]
+	// [1,2,3]-[5,3,8]

@@ -18,7 +18,7 @@ public class Union {
 	public Set<Integer> getCaracter() {
 		return caracter;
 	}
-
+  
 
 	public void setCaracter(Set<Integer> caracter) {
 		this.caracter = caracter;
